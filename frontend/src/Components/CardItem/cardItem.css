@@ -1,0 +1,49 @@
+.nutrient {
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    patting-bottom: 0.5rem;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.macros {
+    display: flex;
+    justify-content: center;
+    justify-items: space-between;
+    align-items: center;
+    text-align: center;
+    color: rgb(154, 94, 56);
+    font-family: Pacifico;
+    width: 250px;
+    height: 80px;
+    margin: 20px 20px 5px 20px; 
+    padding-top: 0px; 
+    background-color: rgb(234, 229, 221);
+    border: 1px solid burlywood;
+    color: rgb(154, 94, 56);
+    box-shadow: 6px 4px 6px 4px rgba(0, 0, 0, 0.1);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    word-spacing: .85px;
+
+}
+
+.nutrient-count {
+    display: flex;
+    justify-content: center;
+    justify-items: space-between;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    height: 40px;
+    margin: 20px 20px 50px 20px; 
+    padding-top: 20px; 
+    color: rgb(154, 94, 56);
+    border: .5px solid burlywood;
+    box-shadow: 6px 4px 6px 4px rgba(0, 0, 0, 0.1);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    word-spacing: .75px;
+}
+ 

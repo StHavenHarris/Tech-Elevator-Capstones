@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.login-body {
+    border: 2px solid burlywood;
+    width: 420px;
+    height: 500px;
+    justify-content: center;
+    align-self: center;
+    justify-items: center;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    margin-top: 5%;
+    margin-left: 35%;
+    padding-left: 20px;
+    box-shodow: 2px 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+div input, div button {
+    display: flex;
+    flex: column;
+}
+
+.sign-in {
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 325px;
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+    background-color: #fff;
+    
+}
+
+.username {
+    width: 200px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: #fff;
+    border: 1px solid rgb(15, 41, 17);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.password {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(15, 41, 17);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.need-account {
+    padding-top: 20;
+    margin-top: 30px;
+    margin-left: 130px;
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 140px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: rgb(68, 67, 67);
+    color: #fff;
+    text-align: center;
+    padding-left: 18px;
+    font-size: 20px;
+}
+.button:hover {
+    color: rgb(154, 94, 56);
+    transform: translate(5%, -1%);
+}
+
+@media screen and (max-width: 800px) {
+    .login-body {
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 5%;
+    
+    }
+
+    
+}

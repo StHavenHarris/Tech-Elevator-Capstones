@@ -1,0 +1,28 @@
+.input {
+    width: 400px;
+    height: 40px;
+    margin-top: -8px;
+    margin-bottom: 0px;
+    background-color: #fff;
+    border: 1px solid rgb(15, 41, 17);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.area-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn> a {
+    color: rgb(234, 229, 221);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0 1rem;
+    border: 1px solid rgb(154, 94, 56);
+    cursor: pointer;
+}

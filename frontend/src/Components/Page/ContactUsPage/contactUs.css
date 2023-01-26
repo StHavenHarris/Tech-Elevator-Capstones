@@ -1,0 +1,70 @@
+.contact-form {
+    border: 1px solid burlywood;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: inline-block;
+    width: 350px;
+    margin-left: 40%;
+    margin-top: 3%;
+
+}
+
+.contact-title {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.contact-us {
+    background-color: whitesmoke; 
+}
+
+.form {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.name-label, .email-label, .text-label {
+    background-color: whitesmoke;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.submit-div {
+    background-color: whitesmoke; 
+      
+}
+
+.name, .email, .text {
+    background-color: #fff;    
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(29, 47, 31);
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px; 
+}
+
+.submit {
+    background-color: #fff;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.submit:hover {
+    color:  rgb(154, 94, 56);
+    transform: translate(.5%, -1%);
+}

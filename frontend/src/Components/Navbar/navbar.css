@@ -1,0 +1,179 @@
+.navbar {
+    background-color: #51b468;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+} 
+
+.material-symbols-rounded {
+    background-color: rgb(234, 229, 221);
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-right: 5px;
+    margin-left: 2px;
+    font-size: 2.0rem;
+    color: rgb(154, 94, 56);
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.branding {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 115px;
+    width: 80px;    
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 50% 50% 50% 50%/ 60% 60% 40% 40%;
+    background-color: rgb(234, 229, 221);
+    border: 1px solid rgb(190, 184, 184);
+    box-shadow: 5px 3px 5px 3px rgba(8, 0, 0, 0.1); 
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: transparent;
+    color: rgb(154, 101, 67);
+    font-style: oblique 30deg;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-family: Pacifico;
+    text-align: center;
+    text-emphasis-style: open;
+}
+
+.company {
+    display: flex;
+    justify-content: left;
+    font-family: Pacifico;
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(154, 94, 56);
+    margin: 40px 20px 2px 2px;
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler-icon {
+    font-size: 1.3rem;    
+    background-color: rgb(234, 229, 221);
+}
+
+.navbar-brand {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px 25px 80px;
+    padding: 0px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    padding: 0px;
+    
+}
+
+.nav-item {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 20px 0px 0px;
+    padding: 0px;
+    width: 130px;
+    text-justify: center;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    background-color: rgb(234, 229, 221);
+    box-shadow: 5px 2px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width:130px;
+    background-color: rgb(234, 229, 221);
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
+}
+.nav-item:hover {
+    color:  rgb(154, 94, 56);
+    transform: translate(.5%, -1%);
+}
+
+.nav-link-disabled {
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width:130px;
+    background-color: rgb(234, 229, 221);
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
+    color: rgb(154, 94, 56);
+    opacity: 0.5;
+}
+
+ 
+@media screen and (max-width: 800px) {
+    .navbar {
+        background-color: #51b468;
+        box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.1);
+        
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-self: flex start;
+        margin: 0px 20px 20px 20px;
+        padding: 0px;
+
+    }
+
+    .navbar-toggler {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        width: 60px;
+        height: 50px;
+        background-color: rgb(234, 229, 221);
+        color: rgb(154, 94, 56);
+        border: 2px solid burlywood;
+        border-radius: 10%;
+        padding-top: 10px;
+        box-shadow: 5px 2px 5px 3px rgba(0, 0, 0, 0.1);
+        margin: 10px 10px 20px 20px;
+       
+    }
+}

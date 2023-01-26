@@ -1,0 +1,23 @@
+.card {
+    border-radius: 30px;
+    background-color: rgb(234, 229, 221);
+    margin: 5px;
+}
+
+.go-to {
+    border: 1px solid burlywood;
+    background-color: rgb(234, 229, 221);
+    border-radius: 5px;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    margin: 10px 40px 10px 10px;
+    padding: 5px;
+    color: #000;
+    font-weight: bold;
+    
+}
+.go-to:hover {
+    color:  rgb(154, 94, 56);
+    transform: translate(.5%, -1%);
+}

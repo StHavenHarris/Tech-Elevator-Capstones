@@ -1,0 +1,8 @@
+.card-food {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px 16px 10px 26px;
+    border-radius: 30px;
+    background-color: rgb(234, 229, 221);
+}
